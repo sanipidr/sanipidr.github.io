@@ -11,9 +11,10 @@ const Greeting = () => {
       greetingMessage = 'Good Evening!!!';
     }
   
-    alert("Welcome " + greetingMessage); // Alert moved outside of the conditional statement
-  
+     
+    alert("Welcome " + greetingMessage); 
     return React.createElement('h2', null, greetingMessage);
   };
+  // Alert moved outside of the conditional
   
   ReactDOM.render(React.createElement(Greeting, null), document.getElementById('greeting-root'));
